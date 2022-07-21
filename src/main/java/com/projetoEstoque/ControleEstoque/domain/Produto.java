@@ -22,7 +22,7 @@ public class Produto {
     private String name;
     private String descricao;
     private double preco;
-    private categoria categoria;
-    private marca marca;
+    private Categoria categoria;
+    private Marca marca;
 
 }
