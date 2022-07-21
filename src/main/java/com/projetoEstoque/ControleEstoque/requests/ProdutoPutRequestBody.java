@@ -6,6 +6,8 @@ import lombok.Data;
 public class ProdutoPutRequestBody {
     private  long id;
     private String name;
+     private String descricao;
+    private double preco;
 
 
 }
