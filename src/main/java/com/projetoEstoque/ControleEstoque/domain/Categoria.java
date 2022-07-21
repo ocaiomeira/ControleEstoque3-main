@@ -15,14 +15,9 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @Entity
 @Builder
-public class Produto {
+public class Categoria {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private String descricao;
-    private double preco;
-    private Categoria categoria;
-    private Marca marca;
-
 }
